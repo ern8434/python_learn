@@ -5,6 +5,7 @@ lorem ipsum dolor sit amet consectetur adipiscing
 
 print(text)
 
+print (3* 'python ')
 
 text = 'abcdef'
 #       012345

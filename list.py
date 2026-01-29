@@ -65,4 +65,13 @@ arr.extend(arr2)
 print(arr)
 
 
+#copy list to another
+arr2 = arr[:]
+
+arr2.append('Z')
+print(arr)
+print(arr2)
+
+
+
 

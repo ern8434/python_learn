@@ -30,3 +30,30 @@ print(text.replace( 'c','C'))
 
 isim = 'aBcDeF'
 print(isim.lower().title())
+
+
+#formatting string values
+# classic method
+num = 12
+num2 = 7.4
+print('The selected number is %d' % num)
+print('The selected numbers are %d and %f' % (num,num2) )
+
+# using format method
+print( 'The selected number is {0}'.format(num) )
+print( 'The selected numbers are {0} and {1}'.format(num, num2)  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

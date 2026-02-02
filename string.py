@@ -43,6 +43,32 @@ print('The selected numbers are %d and %f' % (num,num2) )
 print( 'The selected number is {0}'.format(num) )
 print( 'The selected numbers are {0} and {1}'.format(num, num2)  )
 
+#find in string
+text = 'Find something in this text'
+# only logical result
+print( 'Find' in text )
+# return position if found
+print( text.find('this'))
+# other logical checks
+print( text.startswith('Find'))
+print( text.endswith('text'))
+
+
+text = 'find words in this sentence'
+words = text.split()
+print(words)
+
+email = '@'.join(['info','example.com'])
+print(email)
+
+print(text.replace(' ','-') )
+
+# some functions:
+# strip
+# isnumeric 
+
+
+
 
 
 

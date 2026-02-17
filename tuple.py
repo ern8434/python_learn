@@ -15,4 +15,9 @@ print('a:',a)
 print('b:',b)
 print('c:',c)
 
+eposta = 'username@domain.com'
+(kullanici,alanadi) = eposta.split('@')
+print(kullanici)
+print(alanadi)
+
 

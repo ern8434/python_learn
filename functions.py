@@ -31,3 +31,27 @@ print(cember(4)) # tuple türünde
 cevre,alan = cember(4)
 print(cevre)
 print(alan)
+
+
+
+# çoklu parametre kabul eden fonksiyon (tuple parametreli)
+def ortalama(*sayilar):
+    toplam = 0
+    n = 0
+    for i in sayilar:
+        toplam += i
+        n +=1
+    return toplam/n
+
+print( ortalama(1,2,3,4,5) )
+
+
+
+
+
+
+
+
+
+
+
